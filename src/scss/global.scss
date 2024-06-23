@@ -1,0 +1,18 @@
+html {
+    font-size: 10px;
+    
+    @media (max-width: $media_desktop) {
+        font-size: 0.52vw;
+    }
+    
+    @media (max-width: $media_mobile) {
+        font-size: 2.6vw;
+    }
+}
+
+body {
+    color: var(--color-black);
+    font-family: 'Roboto', 'sans-serif', 'arial';
+    font-size: 1.6rem;
+    font-weight: 400;
+}
