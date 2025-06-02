@@ -19,7 +19,6 @@ function init_autoload()
     \Carbon_Fields\Carbon_Fields::boot();
 }
 
-
 function init_enqueue_scripts()
 {
     wp_enqueue_style('kinza-style', get_template_directory_uri() . '/styles/style.css');
